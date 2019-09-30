@@ -33,14 +33,14 @@ public class AccountService {
         {
             
             user = new User(username, password);
-            password=null;
+            user.setPassword(null);
             return user;
         }
         if(username.equals("adam") && password.equals("password"))
         {
             
             user = new User(username, password);
-            password=null;
+            user.setPassword(null);
             return user;
         }
         return null;
